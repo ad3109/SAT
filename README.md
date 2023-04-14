@@ -16,4 +16,4 @@ preferred over fiat simply becuase they are not bound by arbitrary physical regu
 If we are successful, Bitcoin's volatility will end as it will be used for its' intended purpose - P2P electronic cash. Thus, the SAT project will
 fulfill Satoshi's goal for a universal P2P electronic cash system. 
 
-God Speed
+Viva Web3 & God Speed
