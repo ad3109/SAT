@@ -1,4 +1,4 @@
-# The Stable Asset Token - SAT, A Commodity Backed Stablecoin
+# The Stable Asset Token - SAT, A Commodity Basket Stablecoin
 
 Thesis: SAT is a basket commodities stablecoin using BTC, Gold, Oil, & other strategic commodities for:
 
