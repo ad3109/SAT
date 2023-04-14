@@ -1,6 +1,8 @@
 
  ;; typically this kind of contract requires an oracle that relays a jobID valid on the testnet so the contract can retrieve 
  ;; the current gold price from commodities-API.com and provides a function for other contracts to retrieve the current price
+ ;; get address is the url + api key - here is mine: https://commodities-api.com/api/latest?access_key=ho90ir8l3777dymv9s6vzblbt5p34udvu3bqub662168au23b963x0gzq7kg
+ ;; the JSON query for gold is x.data.rates.GOLD & Oil would be x.data.rates.BRENTOIL ; they don't list BTC but there are other resources for it 
 
 (define-public (get-gold-price)
   (ok (http-client.request
