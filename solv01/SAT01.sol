@@ -1,4 +1,4 @@
-// Solidity contract for a stablecoin that uses the LINK AnyAPI pricefeed to set its price:
+// Solidity SAT contract that uses the LINK AnyAPI pricefeed to set its price:
 
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -19,7 +19,7 @@ contract StableCoin {
     uint256 public constant TARGET_PRICE = 1 * 10 ** 18; // $1 in wei
 
 /** 
-This contract defines a stablecoin with a target price of $1 wei (TARGET_PRICE), and an interface 
+This contract defines SAT with a target price of $1 wei (TARGET_PRICE), and an interface 
 IPriceFeed for getting the latest price from an external price feed contract. The contract's constructor 
 takes the address of a price feed contract as a parameter, and sets the priceFeed variable to an instance 
 of IPriceFeed.
@@ -87,9 +87,9 @@ sender has sufficient balance before transferring.
 }
 
 /** 
-The mint() function is where stablecoins are actually minted. Before minting, the function checks whether 
-the current price is greater than or equal to the target price. If it's not, the function reverts with the 
-error message "Price is below target". If the price is above the target price, the function calculates a 
-priceMultiplier based on the price difference, and mints an amount of stablecoins equal to priceMultiplier 
-* 10 ** decimals (where decimals is the number of decimal places for the stablecoin)
+The mint() function - before minting, the function checks whether the current price is greater than or equal to 
+the target price. If it's not, the function reverts with the error message "Price is below target". If the price 
+is above the target price, the function calculates a priceMultiplier based on the price difference, and mints an 
+amount of stablecoins equal to priceMultiplier * 10 ** decimals (where decimals is the number of decimal places 
+for this stablecoin)
 */
