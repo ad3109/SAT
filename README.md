@@ -4,12 +4,13 @@ Thesis: SAT is a basket commodities stablecoin using BTC, Gold, Oil, & TBD other
 
 1) P2P cash for spot commodities marketplaces 
 2) Defi for tokenized commodities exchanges and lastly,...
-3) Tradfi for legacy commodities markets where live spot pricing is more appealing then futures 
+3) Tradfi for legacy commodities markets where live spot pricing is more appealing than regulated futures 
 
-SAT is diversified to hold its' peg and specifically targets commodities markets, though it can be used as currency in other scenarios. Commodities run the 
-economy as all products and services require them. Commodities are also the second larget market, second only to stocks. Strategic commodities are
-preferred over fiat simply becuase they are not bound by arbitrary physical regulation and hold significant off-chain value. 
+SAT is diversified to hold its' peg and specifically targets commodities markets where spot is more appealing and/or regions looking to divest from USD;
+though it can be used as currency in other scenarios. Commodities run the economy as all products and services require them. Commodities are also the
+second larget market, second only to securities. Strategic commodities are preferred over fiat simply becuase they are not bound by arbitrary physical
+regulation and hold significant off-chain value. 
 
-If we are successful, Bitcoin's volatility will end as it will be used for its' intended purpose - P2P electronic cash in a global marketplace with very large trade volume. Thus, the SAT project will fulfill Satoshi's goal for a universal P2P electronic cash system. 
+If we are successful, Bitcoin's volatility will end as it will be used for its' intended purpose - P2P electronic cash in a global marketplace with very
+large trade volume. Thus, the SAT project will fulfill Satoshi's goal for a universal P2P electronic cash system. 
 
-Viva Web3 & God Speed
