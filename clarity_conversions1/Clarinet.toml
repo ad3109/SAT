@@ -10,6 +10,16 @@ path = 'contracts/SAT01_chatGPT.clar'
 clarity_version = 2
 epoch = 2.1
 
+[contracts."SATPriceFeed.chatGPT"]
+path = 'contracts/SATPriceFeed.chatGPT.clar'
+clarity_version = 2
+epoch = 2.1
+
+[contracts.SATPriceFeed_chatGPT]
+path = 'contracts/SATPriceFeed_chatGPT.clar'
+clarity_version = 2
+epoch = 2.1
+
 [contracts.SATVault01_chatGPT]
 path = 'contracts/SATVault01_chatGPT.clar'
 clarity_version = 2
