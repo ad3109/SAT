@@ -1,12 +1,12 @@
 //SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.13;
 
 import "@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 import "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol";
 
 /**
  * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
- * It was deployed via TRBTC: Tx Hash: 0x894a50a822934d0ab1f4ea3ef70123a39f54a34a3921b26136b14bfab36ee520 
+ * This pricefeed was deployed via TRBTC: Tx Hash: 0x894a50a822934d0ab1f4ea3ef70123a39f54a34a3921b26136b14bfab36ee520 
  */
 
 contract MultiWordConsumer is ChainlinkClient, ConfirmedOwner {
@@ -110,6 +110,7 @@ contract MultiWordConsumer is ChainlinkClient, ConfirmedOwner {
     }
 }
 /**
+ * Request testnet TRBTC here: https://faucet.rsk.co/
  * Request testnet LINK and ETH here: https://faucets.chain.link/
  * Find information on LINK Token Contracts and get the latest ETH and LINK faucets here: https://docs.chain.link/docs/link-token-contracts/
  */
