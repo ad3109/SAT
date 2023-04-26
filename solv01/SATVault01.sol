@@ -44,6 +44,7 @@ contract Vault {
         require(stablecoin.transfer(msg.sender, daiAmount), "Failed to transfer Dai");
     }
 
+
     /*
     Allows users to unlock their collateral by sending back the equivalent amount of stablecoin 
     to the contract. The function checks whether the specified collateral is valid and that the 
@@ -57,17 +58,20 @@ contract Vault {
         require(stablecoin.transferFrom(msg.sender, address(this), _amount), "Failed to transfer Dai");
     }
 
+
     /*
     Allows anyone to liquidate an account if their collateralization ratio falls below the  
     liquidation threshold. The function checks whether the account's collateral value is below the  
     liquidation threshold and burns the equivalent amount of stablecoin based on the collateralization ratio.
     */
+
     function liquidate(address _account) public {
         uint256 collateralValue = getCollateralValue(_account);
         require(collateralValue < stablecoin.balanceOf(address(this)) * LIQUIDATION_THRESHOLD / 100, "Collateral above liquidation threshold");
         balances[_account] = 0;
         stablecoin.burn(collateralValue * 100 / COLLATERALIZATION_RATIO);
     }
+
 
     /*
     Calculates the total value of a user's collateral by looping through the accepted collateral 
