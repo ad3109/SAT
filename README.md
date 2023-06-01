@@ -1,6 +1,11 @@
 # The Stable Asset Token - SAT, A Commodity Basket Stablecoin
 
-Thesis: SAT is a basket commodities stablecoin using commodities like gold, oil, wheat, and other strategic commodities. Our goal is to create a simple and reliable fully collateralized & auditable stablecoin that can be used for on and off-chain transactions. It is a hybrid stablecoin because some commodities are bought & sold via contracts, whilst others (like gold) can be physically vaulted/audited. 
+Thesis: 
+SAT is a commodity basket stablecoin named after SAToshi Nakamoto with one purpose - the buying/selling of spot (not futures) commodities via a marketplace we call CAT 
+(Commodity Asset Tokens) Network. SAT is an over-collateralized basket stablecoin minus any fiat - the basket consists of strategic commodities - like gold, oil, gas, 
+bitcoin, etc. SAT's street value is just an average price of the commodities in the basket, but it's still a hard peg because other commodities that have historically been 
+used as money can be physically vaulted/audited (ie. gold and silver). The basket approach keeps the price fair and decentralized whilst putting hard money in its' rightful 
+place as money again in a giant cross-border market.
 
 Its' intended use is for:
 
@@ -8,12 +13,20 @@ Its' intended use is for:
 2) Defi for tokenized commodities exchanges for outside arbitrage and lastly,...
 3) Tradfi for legacy commodities markets where live spot pricing is more appealing than regulated futures 
 
-Target Customers: SAT is diversified to hold its' peg and specifically targets commodities markets where spot is more appealing and/or in regions where
-soverigns are looking to divest from USD; though it can be used as currency in many other scenarios. Commodities run the economy because all products and
-services require them. Commodities are also the second larget market, second only to securities. Strategic commodities are preferred over fiat simply
-becuase they are not bound by arbitrary physical regulation and hold significant off-chain value. 
+Target Customers: 
+SAT is diversified to hold its' peg and specifically targets commodities markets where spot is more appealing and/or in regions where soverigns are looking to divest from 
+USD; though it can be used as currency in many other scenarios. Commodities run the global economy because all products and services require them. Commodities are also the 
+second larget market, second only to stocks. Strategic commodities are preferred over fiat simply becuase they are not bound by arbitrary physical regulation and hold 
+significant off-chain value. 
 
-If we are successful, non-fiat stablecoin issuance and crypto commodity volatility (ie Bitcoin) will end as they will be used for its' intended purpose - P2P electronic cash in a global marketplace with very large trade volume. Thus, the SAT project will fulfill Satoshi's goal for a universal P2P electronic cash system. 
+So, when a person buys SAT the collateral behind it is held in physical gold/silver via 1:1 tokens like AUX, PAXG, etc but the price will be higher because of the other 
+commodities in the basket- hence SAT must be over-collateralized in gold/silver/other to hold a true aggregate price. The goal is to leverage partner exchange(s) for 
+redemption. Users confidence means the peg is auditable 24x7. It would be easier to make SAT a pure synthetic asset -because most traded commodities are never physically held anyway, but that goes against the whole idea of bringing back strong money. You need a real peg in the real world.
+
+If we are successful, non-fiat stablecoin issuance will be a reality and crypto commodity volatility (ie. Bitcoin) will end as they will finally be used for their intended
+purpose - P2P cash in a global marketplace with very large trade volume. Thus, the SAT project will fulfill Satoshi's goal for a universal P2P electronic cash system. 
+
 
 Reference: 
 Commodity Asset Tokens Repo (CAT): https://github.com/ad3109/commodities1
+SAT videos, presentations, the white papers, and more: https://stablec.com/sat-rwa/
