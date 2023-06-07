@@ -3,9 +3,9 @@
 Thesis: 
 SAT is a commodity basket stablecoin named after SAToshi Nakamoto with one purpose - the buying/selling of spot (not futures) commodities via a marketplace we call CAT 
 (Commodity Asset Tokens) Network. SAT is an over-collateralized basket stablecoin minus any fiat - the basket consists of strategic commodities - like gold, oil, gas, 
-bitcoin, etc. SAT's street value is just an average price of the commodities in the basket, but it's still a hard peg because other commodities that have historically been 
-used as money can be physically vaulted/audited (ie. gold and silver). The basket approach keeps the price fair and decentralized whilst putting hard money in its' rightful 
-place as money again in a giant cross-border market.
+bitcoin, etc. Aggregate price will be the 1913 peg of $100 USD. SAT's street value is just an average price of the commodities in the basket, but it's still a hard peg because other 
+commodities that have historically been used as money can be vaulted/audited (ie. gold, silver, bitcoin). The basket approach keeps the price fair and decentralized whilst putting hard 
+money in its' rightful place as money again in a giant cross-border market.
 
 Its' intended use is for:
 
@@ -27,6 +27,7 @@ If we are successful, non-fiat stablecoin issuance will be a reality and crypto 
 purpose - P2P cash in a global marketplace with very large trade volume. Thus, the SAT project will fulfill Satoshi's goal for a universal P2P electronic cash system. 
 
 
-Reference: 
+References:
 Commodity Asset Tokens Repo (CAT): https://github.com/ad3109/commodities1
 SAT videos, presentations, the white papers, and more: https://stablec.com/sat-rwa/
+More Project videos/other: https://www.youtube.com/channel/UCcogrmPbUkhyMtt8Fz5MCBA
