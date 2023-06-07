@@ -19,9 +19,10 @@ USD; though it can be used as currency in many other scenarios. Commodities run 
 second larget market, second only to stocks. Strategic commodities are preferred over fiat simply becuase they are not bound by arbitrary physical regulation and hold 
 significant off-chain value. 
 
-So, when a person buys SAT the collateral behind it is held in physical gold/silver via 1:1 tokens like AUX, PAXG, etc but the price will be higher because of the other 
-commodities in the basket- hence SAT must be over-collateralized in gold/silver/other to hold a true aggregate price. The goal is to leverage partner exchange(s) for 
-redemption. Users confidence means the peg is auditable 24x7. It would be easier to make SAT a pure synthetic asset -because most traded commodities are never physically held anyway, but that goes against the whole idea of bringing back strong money. You need a real peg in the real world.
+So, when a person buys SAT the collateral behind it is held in BTC and physical gold/silver via 1:1 tokens like AUX, PAXG, etc but the price will be higher because of the other 
+commodities in the basket- hence SAT must be over-collateralized in gold/silver/btc/other to hold a true aggregate price. The goal is to leverage partner exchange(s) for 
+redemption since there will be transparent audits. Users confidence means the peg is auditable 24x7. It would be easier to make SAT a pure synthetic asset -because most traded commodities are 
+never physically held anyway, but that goes against the whole idea of bringing back strong money. You need a real peg in the real world.
 
 If we are successful, non-fiat stablecoin issuance will be a reality and crypto commodity volatility (ie. Bitcoin) will end as they will finally be used for their intended
 purpose - P2P cash in a global marketplace with very large trade volume. Thus, the SAT project will fulfill Satoshi's goal for a universal P2P electronic cash system. 
