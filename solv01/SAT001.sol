@@ -1,5 +1,5 @@
 // Solidity SAT contract that uses the LINK AnyAPI pricefeed to set its price:
-
+// Depricated code that was experimenting with initial supply, an idea which is being dropped
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
