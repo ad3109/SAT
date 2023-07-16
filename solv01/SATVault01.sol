@@ -13,7 +13,8 @@ contract Vault {
     Stablecoin public stablecoin;
 
     uint256 public constant COLLATERALIZATION_RATIO = 150; // minimum 150% collateralization
-    uint256 public constant LIQUIDATION_THRESHOLD = 120; // liquidation threshold at 120% collateralization
+    uint256 public constant LIQUIDATION_THRESHOLD = 101; // liquidation threshold at 101% collateralization
+// Liquidate at 101% to protect clients from losing their money
 
     mapping(address => uint256) public balances;
     mapping(address => bool) public isCollateral;
@@ -29,11 +30,11 @@ contract Vault {
     }
 
     /*
-    Allows users to lock their collateral and receive the equivalent amount of stablecoin (DAI) 
+    Allows users to lock their collateral and receive the equivalent amount of stablecoin (SAT) 
     based on the collateralization ratio. The function checks whether the specified collateral 
     is valid and has a price available. It then calculates the value of the collateral and ensures 
     that there is enough stablecoin available in the contract. If everything checks out, the user's 
-    balance is updated and they receive their stablecoin.
+    balance is updated and they receive their stablecoin. 
     */
     function lock(address _collateral, uint256 _amount) public {
         require(isCollateral[_collateral], "Invalid collateral");
@@ -42,7 +43,7 @@ contract Vault {
         uint256 daiAmount = collateralValue * COLLATERALIZATION_RATIO / 100;
         require(stablecoin.balanceOf(address(this)) >= daiAmount, "Not enough Dai available");
         balances[msg.sender] += _amount;
-        require(stablecoin.transfer(msg.sender, daiAmount), "Failed to transfer Dai");
+        require(stablecoin.transfer(msg.sender, daiAmount), "Failed to transfer SAT");
     }
 
 
@@ -56,7 +57,7 @@ contract Vault {
         require(isCollateral[_collateral], "Invalid collateral");
         require(balances[msg.sender] >= _amount, "Insufficient collateral balance");
         balances[msg.sender] -= _amount;
-        require(stablecoin.transferFrom(msg.sender, address(this), _amount), "Failed to transfer Dai");
+        require(stablecoin.transferFrom(msg.sender, address(this), _amount), "Failed to transfer SAT");
     }
 
 
@@ -93,3 +94,4 @@ contract Vault {
 }
 
 // In this example, the Vault contract only accepts BTC and PAXG as collateral, as specified by the `isCollateral
+// AS NOTED: the final vault version will allow all major fiat and commodity backed stablecoins as collateral
