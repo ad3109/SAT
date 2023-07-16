@@ -40,10 +40,10 @@ contract Vault {
         require(isCollateral[_collateral], "Invalid collateral");
         require(priceFeed.getPrice(_collateral) > 0, "Price not available");
         uint256 collateralValue = priceFeed.getPrice(_collateral) * _amount / 1e18;
-        uint256 daiAmount = collateralValue * COLLATERALIZATION_RATIO / 100;
-        require(stablecoin.balanceOf(address(this)) >= daiAmount, "Not enough Dai available");
+        uint256 satAmount = collateralValue * COLLATERALIZATION_RATIO / 100;
+        require(stablecoin.balanceOf(address(this)) >= satAmount, "Not enough SAT available");
         balances[msg.sender] += _amount;
-        require(stablecoin.transfer(msg.sender, daiAmount), "Failed to transfer SAT");
+        require(stablecoin.transfer(msg.sender, satAmount), "Failed to transfer SAT");
     }
 
 
