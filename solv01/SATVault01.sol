@@ -6,7 +6,7 @@
 pragma solidity ^0.8.0;
 
 import "./SATPriceFeed.sol";
-import "./SAT01.sol";
+import "./SAT02.sol";
 
 contract Vault {
     AnyAPIPriceFeed public priceFeed;
@@ -25,6 +25,7 @@ contract Vault {
         isCollateral[0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599] = true; // BTC
         isCollateral[0x45804880De22913dAFE09f4980848ECE6EcbAf78] = true; // PAXG
      // In this example, the Vault contract only accepts BTC and PAXG as collateral, as specified by the `is
+     // The final version will ALLOW ANY STABLECOIN EITHER FIAT OR COMMODITY BASED
     }
 
     /*
