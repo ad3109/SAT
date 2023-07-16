@@ -29,6 +29,6 @@ purpose - money in a global marketplace with very large trade volume. Thus, the 
 
 
 References:
-Commodity Asset Tokens Repo (CAT): https://github.com/ad3109/commodities1
-SAT videos, presentations, the white papers, and more: https://stablec.com/sat-rwa/
-More Project videos/other: https://www.youtube.com/channel/UCcogrmPbUkhyMtt8Fz5MCBA
+Commodity Asset Tokens Repo (CAT)/Archieved: https://github.com/ad3109/CAT
+Supporting Contracts incl API info: https://github.com/ad3109/oracle-proxy-api/blob/main/LINK-Proxy-Testnet.sol
+SAT and CAT videos, presentations, the white papers, and more: https://stablec.com/sat-rwa/ and https://catrwa.com/
