@@ -33,7 +33,7 @@ contract SATMultiAsset1 is ChainlinkClient, ConfirmedOwner {
      * @notice Initialize the link token and target oracle
      * @dev The oracle address must be an Operator contract for multiword response
      *
-     * This contract uses Goerli
+     * This contract uses Goerli, LTC MIMES WTI here
      * Sepolia Testnet details:
      * Link Token: 0x779877A7B0D9E8603169DdbD7836e478b4624789
      * Oracle: 0x6090149792dAAeE9D1D568c9f9a6F6B46AA29eFD (Chainlink DevRel)
